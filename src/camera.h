@@ -11,7 +11,7 @@ void vdbCamera2D()
     const float dt = 1.0f/60.0f;
 
     GetFrameSettings()->camera.planar.dirty = true;
-    float scroll_sensitivity = settings.camera.scroll_sensitivity;
+    // float scroll_sensitivity = settings.camera.scroll_sensitivity; // FIXME: unused
     float mouse_sensitivity = settings.camera.mouse_sensitivity;
     float &zoom = GetFrameSettings()->camera.planar.zoom;
     float &angle = GetFrameSettings()->camera.planar.angle;
